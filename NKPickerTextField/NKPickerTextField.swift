@@ -26,6 +26,20 @@ class NKPickerTextField: UITextField, UIPickerViewDataSource, UIPickerViewDelega
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        setup()
+    }
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        setup()
+    }
+    
+    init() {
+        super.init(frame: CGRect.zero)
+        setup()
+    }
+    
+    private func setup() {
         picker.dataSource = self
         picker.delegate = self
         self.inputView = picker
