@@ -11,7 +11,7 @@ s.requires_arc = true
 s.version = "0.0.1"
 
 # 3
-s.license = { :type => "MIT", :file => "LICENSE" }
+s.license = "MIT"
 
 # 4 - Replace with your name and e-mail address
 s.author = { "Nikolai Kratz" => "nikolai.kratz@gmail.com" }
