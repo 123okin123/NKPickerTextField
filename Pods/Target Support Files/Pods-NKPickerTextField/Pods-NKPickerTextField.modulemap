@@ -1,0 +1,6 @@
+framework module Pods_NKPickerTextField {
+  umbrella header "Pods-NKPickerTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

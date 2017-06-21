@@ -11,6 +11,8 @@
 		1044E8311EFA74350056561B /* NKPickerTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1044E8301EFA74350056561B /* NKPickerTextFieldTests.swift */; };
 		1044E8331EFA74350056561B /* NKPickerTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 1044E8251EFA74350056561B /* NKPickerTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1044E83D1EFA744E0056561B /* NKPickerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1044E83C1EFA744E0056561B /* NKPickerTextField.swift */; };
+		FC2FE1937D69F1AAAE01C235 /* Pods_NKPickerTextFieldTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A460AD65CC132B77AF36A6C6 /* Pods_NKPickerTextFieldTests.framework */; };
+		FE1C5B1623957AB48FF8DE9C /* Pods_NKPickerTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B74A2C21414936B97ADABE1 /* Pods_NKPickerTextField.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,12 @@
 		1044E8301EFA74350056561B /* NKPickerTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NKPickerTextFieldTests.swift; sourceTree = "<group>"; };
 		1044E8321EFA74350056561B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1044E83C1EFA744E0056561B /* NKPickerTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NKPickerTextField.swift; sourceTree = "<group>"; };
+		266419BE5E47CA9F860EB8CA /* Pods-NKPickerTextFieldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NKPickerTextFieldTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NKPickerTextFieldTests/Pods-NKPickerTextFieldTests.release.xcconfig"; sourceTree = "<group>"; };
+		38804CCCA17F92EFD7D00175 /* Pods-NKPickerTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NKPickerTextField.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NKPickerTextField/Pods-NKPickerTextField.debug.xcconfig"; sourceTree = "<group>"; };
+		514D0D0A26840DBCC9E826C0 /* Pods-NKPickerTextFieldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NKPickerTextFieldTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NKPickerTextFieldTests/Pods-NKPickerTextFieldTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B74A2C21414936B97ADABE1 /* Pods_NKPickerTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NKPickerTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EA59D347F6C6613EA93D592 /* Pods-NKPickerTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NKPickerTextField.release.xcconfig"; path = "Pods/Target Support Files/Pods-NKPickerTextField/Pods-NKPickerTextField.release.xcconfig"; sourceTree = "<group>"; };
+		A460AD65CC132B77AF36A6C6 /* Pods_NKPickerTextFieldTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NKPickerTextFieldTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE1C5B1623957AB48FF8DE9C /* Pods_NKPickerTextField.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1044E82C1EFA74350056561B /* NKPickerTextField.framework in Frameworks */,
+				FC2FE1937D69F1AAAE01C235 /* Pods_NKPickerTextFieldTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +68,8 @@
 				1044E8241EFA74350056561B /* NKPickerTextField */,
 				1044E82F1EFA74350056561B /* NKPickerTextFieldTests */,
 				1044E8231EFA74350056561B /* Products */,
+				BCC5D84B71BBB7EB033BD420 /* Pods */,
+				F6EAB01583D342D7EFBF67E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +101,26 @@
 			path = NKPickerTextFieldTests;
 			sourceTree = "<group>";
 		};
+		BCC5D84B71BBB7EB033BD420 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38804CCCA17F92EFD7D00175 /* Pods-NKPickerTextField.debug.xcconfig */,
+				9EA59D347F6C6613EA93D592 /* Pods-NKPickerTextField.release.xcconfig */,
+				514D0D0A26840DBCC9E826C0 /* Pods-NKPickerTextFieldTests.debug.xcconfig */,
+				266419BE5E47CA9F860EB8CA /* Pods-NKPickerTextFieldTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F6EAB01583D342D7EFBF67E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B74A2C21414936B97ADABE1 /* Pods_NKPickerTextField.framework */,
+				A460AD65CC132B77AF36A6C6 /* Pods_NKPickerTextFieldTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -107,10 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1044E8361EFA74350056561B /* Build configuration list for PBXNativeTarget "NKPickerTextField" */;
 			buildPhases = (
+				C896895636BE0642E390ADE6 /* [CP] Check Pods Manifest.lock */,
 				1044E81D1EFA74350056561B /* Sources */,
 				1044E81E1EFA74350056561B /* Frameworks */,
 				1044E81F1EFA74350056561B /* Headers */,
 				1044E8201EFA74350056561B /* Resources */,
+				58F3DBD04814BA29D69DE6A7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1044E8391EFA74350056561B /* Build configuration list for PBXNativeTarget "NKPickerTextFieldTests" */;
 			buildPhases = (
+				7B03D24AC72ED23BD77C33BE /* [CP] Check Pods Manifest.lock */,
 				1044E8271EFA74350056561B /* Sources */,
 				1044E8281EFA74350056561B /* Frameworks */,
 				1044E8291EFA74350056561B /* Resources */,
+				5B465B9575D2631C76074C92 /* [CP] Embed Pods Frameworks */,
+				E507CA382F4354250FF171B0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +233,84 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58F3DBD04814BA29D69DE6A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NKPickerTextField/Pods-NKPickerTextField-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B465B9575D2631C76074C92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NKPickerTextFieldTests/Pods-NKPickerTextFieldTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B03D24AC72ED23BD77C33BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C896895636BE0642E390ADE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E507CA382F4354250FF171B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NKPickerTextFieldTests/Pods-NKPickerTextFieldTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1044E81D1EFA74350056561B /* Sources */ = {
@@ -328,6 +443,7 @@
 		};
 		1044E8371EFA74350056561B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38804CCCA17F92EFD7D00175 /* Pods-NKPickerTextField.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -349,6 +465,7 @@
 		};
 		1044E8381EFA74350056561B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EA59D347F6C6613EA93D592 /* Pods-NKPickerTextField.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -369,6 +486,7 @@
 		};
 		1044E83A1EFA74350056561B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 514D0D0A26840DBCC9E826C0 /* Pods-NKPickerTextFieldTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 5K2V3AFYFW;
@@ -382,6 +500,7 @@
 		};
 		1044E83B1EFA74350056561B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 266419BE5E47CA9F860EB8CA /* Pods-NKPickerTextFieldTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 5K2V3AFYFW;
