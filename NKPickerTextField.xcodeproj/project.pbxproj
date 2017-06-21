@@ -10,6 +10,7 @@
 		1044E82C1EFA74350056561B /* NKPickerTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1044E8221EFA74350056561B /* NKPickerTextField.framework */; };
 		1044E8311EFA74350056561B /* NKPickerTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1044E8301EFA74350056561B /* NKPickerTextFieldTests.swift */; };
 		1044E8331EFA74350056561B /* NKPickerTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 1044E8251EFA74350056561B /* NKPickerTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1044E83D1EFA744E0056561B /* NKPickerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1044E83C1EFA744E0056561B /* NKPickerTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		1044E82B1EFA74350056561B /* NKPickerTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NKPickerTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1044E8301EFA74350056561B /* NKPickerTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NKPickerTextFieldTests.swift; sourceTree = "<group>"; };
 		1044E8321EFA74350056561B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1044E83C1EFA744E0056561B /* NKPickerTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NKPickerTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				1044E8251EFA74350056561B /* NKPickerTextField.h */,
+				1044E83C1EFA744E0056561B /* NKPickerTextField.swift */,
 				1044E8261EFA74350056561B /* Info.plist */,
 			);
 			path = NKPickerTextField;
@@ -149,6 +152,7 @@
 					1044E8211EFA74350056561B = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 5K2V3AFYFW;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					1044E82A1EFA74350056561B = {
@@ -198,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1044E83D1EFA744E0056561B /* NKPickerTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +329,7 @@
 		1044E8371EFA74350056561B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5K2V3AFYFW;
@@ -336,6 +342,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nikolaikratz.NKPickerTextField;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -343,6 +350,7 @@
 		1044E8381EFA74350056561B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5K2V3AFYFW;
@@ -362,6 +370,7 @@
 		1044E83A1EFA74350056561B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 5K2V3AFYFW;
 				INFOPLIST_FILE = NKPickerTextFieldTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -374,6 +383,7 @@
 		1044E83B1EFA74350056561B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 5K2V3AFYFW;
 				INFOPLIST_FILE = NKPickerTextFieldTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
