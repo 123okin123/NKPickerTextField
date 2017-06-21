@@ -26,10 +26,8 @@ s.source = { :git => "https://github.com/123okin123/NKPickerTextField.git", :tag
 s.framework = "UIKit"
 
 # 8
-s.source_files = "NKPickerTextField/**/*.{swift}"
+s.source_files = "NKPickerTextField/*.{swift}"
 
-# 9
-s.resources = "NKPickerTextField/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
 
 
